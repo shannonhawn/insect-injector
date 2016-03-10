@@ -1,43 +1,46 @@
  // Create your variable here, name it `insects`
 
-var Insects = [
-{
+var insects = [{
   name: 'Ant Nest Beetle',
-  img: "images/ant-nest-beetle.jpg",
+  img: 'ant-nest-beetle.jpg',
   Family: 'Carabidae',
   size: [6, 20],
   food: {eatsInsects: false,
-  eatsDung: true,
-  eatsPlants: false
+    eatsDung: true,
+    eatsPlants: false
+  }
 },
-{
-  name: 'Dung Beetle',
-  img: "images/dung-beetle.jpg"
-  Family: 'Scarabidae',
-  size: [20, 30],
-  food: {eatsInsects: false,
-  eatsDung: true,
-  eatsPlants: false
-},
-{
-  name: 'Stag Beetle',
-  img: "images/stag-beetle.jpg"
-  Family: 'Lucanidae',
-  size: [5, 120],
-  food: {eatsInsects: false,
-  eatsDung: true,
-  eatsPlants: false
-},
-{
-  name: 'Tortoise Beetle',
-  img: "images/tortoise-beetle.jpg"
-  Family: 'Cassidinae',
-  size: [1-18],
-  food: {eatsInsects: false,
-  eatsDung: true,
-  eatsPlants: false
-},
-]
+  {
+    name: 'Dung Beetle',
+    img: 'dung-beetle.jpg',
+    Family: 'Scarabidae',
+    size: [20, 30],
+    food: {eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false
+  }
+  },
+  {
+    name: 'Stag Beetle',
+    img: 'stag-beetle.jpg',
+    Family: 'Lucanidae',
+    size: [5, 120],
+    food: {eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false
+  }
+  },
+  {
+    name: 'Tortoise Beetle',
+    img: 'images/tortoise-beetle.jpg',
+    Family: 'Cassidinae',
+    size: [1, 18],
+    food: {eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false
+    }
+  },
+];
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
